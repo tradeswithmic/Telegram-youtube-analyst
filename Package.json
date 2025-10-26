@@ -1,0 +1,13 @@
+{
+  "name": "telegram-youtube-analyst-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for YouTube analysis using Gemini API on Vercel.",
+  "main": "api/webhook.js",
+  "scripts": {
+    "start": "node api/webhook.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "telegraf": "^4.16.1"
+  }
+}
